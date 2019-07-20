@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <RootNamespace>Parking_Alert</RootNamespace>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\libs\%40fortawesome\fontawesome-free\less\" />
+    <Folder Include="wwwroot\assets\libs\%40fortawesome\fontawesome-free\scss\" />
+    <Folder Include="wwwroot\assets\libs\flatpickr\dist\types\" />
+    <Folder Include="wwwroot\assets\libs\flatpickr\dist\utils\" />
+    <Folder Include="wwwroot\assets\libs\highlight.js\docs\" />
+    <Folder Include="wwwroot\assets\libs\holderjs\src\" />
+    <Folder Include="wwwroot\assets\libs\holderjs\test\" />
+    <Folder Include="wwwroot\assets\libs\imagesloaded\test\" />
+    <Folder Include="wwwroot\assets\libs\ion-rangeslider\less\skins\" />
+    <Folder Include="wwwroot\assets\libs\js-cookie\src\" />
+    <Folder Include="wwwroot\assets\libs\typed.js\docs\" />
+    <Folder Include="wwwroot\assets\libs\typed.js\src\" />
+    <Folder Include="wwwroot\resources\scss\purpose\components\collapse\" />
+    <Folder Include="wwwroot\resources\scss\purpose\components\slidebars\" />
+  </ItemGroup>
+
+</Project>
